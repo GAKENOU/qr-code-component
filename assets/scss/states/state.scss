@@ -1,0 +1,21 @@
+.is-hidden {
+    display: none;
+}
+
+.hide-on-desk {
+    display: none;
+}
+
+.is-visible {
+    display: block!important;
+}
+
+@media (max-width: 768px) {
+    .is-hidden-xs {
+        display: none!important;
+    }
+
+    .hide-on-desk {
+        display: block;
+    }
+}
